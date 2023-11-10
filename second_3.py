@@ -8,8 +8,6 @@ def is_float(value):
 while True:
     rows = input("Введите количество строк в матрице: ")
     columns = input("Введите количество столбцов в матрице: ")
-
-    # Проверка введенных значений на корректность
     if not rows.isdigit() or not columns.isdigit():
         print("Некорректный ввод. Введите целые числа.")
     else:
